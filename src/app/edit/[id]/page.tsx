@@ -30,3 +30,12 @@ export default async function EditStuffPage({ params }: { params: { id: string |
     </main>
   );
 }
+
+export async function generateStaticParams() {
+  // Return the IDs you want pre-rendered at build time
+  // If you don't know the IDs, returning an empty array works for static export
+  return [];
+}
+
+// Force dynamic params off or set static export behavior
+export const dynamicParams = false;

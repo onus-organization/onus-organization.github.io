@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar, Col, Image} from "react-bootstrap";
+import { Container, Nav, Navbar} from "react-bootstrap";
 
 const LandingPage = () => {
 return (
