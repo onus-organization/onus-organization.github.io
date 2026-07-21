@@ -1,8 +1,10 @@
 title: Onus Organization
 description: An Appication for Organizing Schedules and Tasks
 google_analytics:
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-merlot
-
+github:
+  is_project_page: true
+  repository_url: https://github.com/bowfolios/bowfolios
 gems:
   - jekyll-mentions
